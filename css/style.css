@@ -83,3 +83,53 @@ img[class*="position-absolute"]:hover {
   line-height: 25px;
 }
 /* All about End Here */
+
+/* All Service Start Here */
+/* Services Card Bottom Accent Custom Styles */
+.col-lg-4 .card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.col-lg-4 .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+.textInfo p{
+  margin-top: 10px;
+line-height: 20px;
+}
+/* All Service End Here */
+
+
+
+
+
+/* All Service Start Here */
+
+
+
+
+/* All Service End Here */
+/* All Service Start Here */
+
+
+
+
+/* All Service End Here */
+/* All Service Start Here */
+
+
+
+
+/* All Service End Here */
+/* All Service Start Here */
+
+
+
+
+/* All Service End Here */
+/* All Service Start Here */
+
+
+
+
+/* All Service End Here */
