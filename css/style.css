@@ -79,4 +79,7 @@ img[class*="position-absolute"]:hover {
   z-index: 3 !important;
   transform: scale(1.02);
 }
+.terms p{
+  line-height: 25px;
+}
 /* All about End Here */
