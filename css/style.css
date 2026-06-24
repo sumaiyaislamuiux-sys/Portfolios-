@@ -59,8 +59,6 @@ section[style*="background-image"] {
 }
 /* All Contact End Here */
 
-
-
 /* All FAQ Start Here */
 /* Premium Dark Contact Custom Styles */
 .form-control:focus {
@@ -72,6 +70,13 @@ line-height: 20px;
 }
 /* All FAQ End Here */
 
-/* All Footer Start Here */
-
-/* All Footer End Here */
+/* All about Start Here */
+/* Overlapping Images Custom Styles */
+img[class*="position-absolute"] {
+  transition: all 0.3s ease;
+}
+img[class*="position-absolute"]:hover {
+  z-index: 3 !important;
+  transform: scale(1.02);
+}
+/* All about End Here */
