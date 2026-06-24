@@ -28,18 +28,17 @@ a:hover {
 /* All Common CSS End Here */
 
 /* All Banner Start Here */
-/* Fullscreen Dark Background Image Custom Styles */
 section[style*="background-image"] {
   position: relative;
   z-index: 1;
 }
-.btn-warning {
+.btn {
   border-radius: 4px;
   letter-spacing: 0.05em;
   transition: all 0.25s ease;
 }
-.btn-warning:hover {
-  box-shadow: 0 0 15px rgba(255, 193, 7, 0.4);
+.btn:hover {
+  box-shadow: 0 0 15px rgba(7, 32, 255, 0.4);
 }
 /* All Banner End Here */
 
@@ -50,28 +49,29 @@ section[style*="background-image"] {
 .col-lg-4 .card:hover {
   transform: translateY(-2px);
 }
+.infoFeedback {
+line-height: 15px;
+}
+
 /* All Feedback End Here */
 
 /* All Contact Start Here */
-/* Branch Directory Custom Styles */
 .card h5 {
   color: var(--bs-primary);
 }
 /* All Contact End Here */
 
 /* All FAQ Start Here */
-/* Premium Dark Contact Custom Styles */
 .form-control:focus {
   background-color: var(--bs-dark) !important;
   border-color: var(--bs-warning);
 }
-.info p{
+.info {
 line-height: 20px;
 }
 /* All FAQ End Here */
 
 /* All about Start Here */
-/* Overlapping Images Custom Styles */
 img[class*="position-absolute"] {
   transition: all 0.3s ease;
 }
@@ -79,13 +79,12 @@ img[class*="position-absolute"]:hover {
   z-index: 3 !important;
   transform: scale(1.02);
 }
-.terms p{
+.terms {
   line-height: 25px;
 }
 /* All about End Here */
 
 /* All Service Start Here */
-/* Services Card Bottom Accent Custom Styles */
 .col-lg-4 .card {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -93,7 +92,7 @@ img[class*="position-absolute"]:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
 }
-.textInfo p{
+.textInfo {
   margin-top: 10px;
 line-height: 20px;
 }
@@ -127,8 +126,13 @@ line-height: 20px;
 
 
 /* All Service End Here */
-/* All Service Start Here */
-
+/* All Footer Start Here */
+.footerPart{
+  padding: 50px 0;
+  text-align: center;
+  background: #185a9d;
+  color: white;
+}
 
 
 
